@@ -1,0 +1,50 @@
+
+  body{
+    background: url('https://uhdwallpapers.org/uploads/converted/18/03/17/bmw-i8-1920x1080_75778-mm-90.jpg') no-repeat center center fixed;
+  }
+  #bmw{
+    color: rgb(218, 226, 224);
+  }
+
+  table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+  }
+  #card{
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.5);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+width: 70%;
+padding: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  } 
